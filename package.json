@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "hash": "tsx src/hash.ts",
+    "compare": "tsx src/compare.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "debug": "^4.4.1",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.2",
+    "@tsconfig/node-ts": "^23.6.1",
+    "@types/bcrypt": "^6.0.0",
+    "@types/debug": "^4.1.12",
+    "@types/node": "^24.3.0",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
